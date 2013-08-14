@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Integrated</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "jquery" %>
+  <%= javascript_include_tag "application" %>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+  <div id="main">
+    <%= yield %>
+  </div>
+
+  
+
+</body>
+</html>
